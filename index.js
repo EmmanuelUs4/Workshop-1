@@ -1,23 +1,20 @@
-
-//El prompt se usa para que el usuario ingrese un dato, podemos guardar
-//este dato igualandolo a una variable.
-/*const salary = prompt("Type your salary.")
+//Ejercicio 1
+const salary = prompt("Type your salary.")
 const antiquity = prompt("Type your time working here.")
-//alert("Your salary is: " + salary)
 
 const salaryLessThanTwoThousand = Number(salary) < 2000
 const timeWorkingMoreThanTenYears = Number(antiquity) == 10 || Number(antiquity)  >=  10;
 const salaryAndTime = salaryLessThanTwoThousand && antiquity
 
-console.log("Respuesta a 1.a"+salaryAndTime)
+console.log("Answer to 1.1.a: "+salaryAndTime)
 
 const antiquityLessThanTen = Number(antiquity) < 10
 const timeAndSalary  =   salaryLessThanTwoThousand ||  antiquityLessThanTen
-console.log("Ejercicio 2: " + timeAndSalary)
+console.log("Answer to 1.1.b: " + timeAndSalary)
 
 
 const salaryAlone = !salaryLessThanTwoThousand
-console.log("ejer 3: "+salaryAlone)
+console.log("Answer to 1.1.c: "+salaryAlone)
 
 
 //Ejercicio 1.b
@@ -27,27 +24,27 @@ console.log("ejer 3: "+salaryAlone)
 //Mostrar en cosola un booleano: descuento o no
 
 
-const compras = prompt("Type the value of your buys: ")
-const descuento  = Number(compras) >= 100000*/
+const shopping = prompt("Type the value of your shopping: ")
+const discount  = Number(shopping) >= 100000
 
 
 //Ejercicio 1.c  Calculo de multiplo de 2 ----- Solucionado
 
-/*let numero = prompt("Type a number: ")
+let number = prompt("Type a number: ")
 
 
-if (numero % 2  === 0 ) {
-    console.log("El numero ingresado SÍ es múltiplo de 2");
+if (number % 2  === 0 ) {
+    console.log("The number is multiple of 2");
 }
 else{
-    console.log("El número ingresado NO es múltiplo de dos");
-} */
+    console.log("The number is not multiple of 2");
+} 
 
 //////////////////////////////////////////////////////
 
 //Ejercicio D - SOLUCINADO
 
-/*//Un prompt que reciba nombre, salario por hora y numero de horas trabajadas
+//Un prompt que reciba nombre, salario por hora y numero de horas trabajadas
 
 const employeeName = prompt("Type the employee name: ")
 const salaryPerHour = prompt("Type the employee's salary per hour: ")
@@ -68,12 +65,12 @@ if (getTransport == true) {
     console.log("This emplyee gets transportation subsidy")
 } else {
     console.log("This employee doesn't get transportation subsidy")
-}*/
+}
 
 
 //////////////////////////////////////////////////////
 
-/*//Ejercicio E - SOLUCIONADO
+//Ejercicio E - SOLUCIONADO
 
 //Un algoritmo que reciba una letra del abecedario y que valide si es vocal o no.
 
@@ -85,12 +82,12 @@ if (letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || lett
     console.log("This letter is a vowal");
 } else {
     console.log("This letter is not a vowal");
-}*/
+}
 
 
 //////////////////////////////////////////////////////
 
-/*// Ejercicio F - SOLUCIONADO
+// Ejercicio F - SOLUCIONADO
 
 //Aeropuerto requiere un programa que brinde info  a los turistas de donde está salida,
 //recibiendo un digito de pasaporte
@@ -102,14 +99,14 @@ firstData = firstData.toLowerCase();
 
 
 if (firstData === 'a'){
-    console.log("Este pasaporte es Nacional (" + true + ")")
+    console.log("This passport is from here (" + true + ")")
 } else {
-    console.log("Este pasaporte es Extranjero (" + false + ")")
-}*/
+    console.log("This passport is foreing (" + false + ")")
+}
 
 //////////////////////////////////////////////////////
 
-/*//Ejercicio 2 -  SOLUCIONADO
+//Ejercicio 2 -  SOLUCIONADO
 
 const a = 4
 const b = 7
@@ -134,12 +131,12 @@ console.log("2.c result= "+ resultC)
 
 //2.d
 const resultD  = x/y*(z+w)
-console.log("2.d result= " + resultD)*/
+console.log("2.d result= " + resultD)
 
 
 //////////////////////////////////////////////////////
 
-//Ejercicio 3
+//Ejercicio 3 - SOLUCIONADO
 
 //Tablas de verdad.
 
@@ -150,7 +147,9 @@ const table = [
     { p: false, q: false }
 ]
 
-/*console.log("p   | q      | NOT p   | NOT p AND q");
+//3.a
+
+console.log("p   | q      | NOT p   | NOT p AND q");
 
 for (const row of table) {
 
@@ -163,9 +162,9 @@ for (const row of table) {
 
     //se imprime cada resultado
     console.log(`${row.p} | ${row.q} | ${notP} | ${result}`);
-  }*/
+  }
 
-
+//3.b
 console.log("p   | q        | NOT p   | NOT q   | NOT p AND NOT q")
 
 for (const row of table) {
