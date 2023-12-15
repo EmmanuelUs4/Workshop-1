@@ -1,4 +1,4 @@
-//Ejercicio 1
+/*//Ejercicio 1
 const salary = prompt("Type your salary.")
 const antiquity = prompt("Type your time working here.")
 
@@ -22,12 +22,13 @@ console.log("Answer to 1.1.c: "+salaryAlone)
 //Compras mayores o  igual a los  100k
 
 //Mostrar en cosola un booleano: descuento o no
-
+*/
 
 const shopping = prompt("Type the value of your shopping: ")
 const discount  = Number(shopping) >= 100000
+console.log(discount)
 
-
+/*
 //Ejercicio 1.c  Calculo de multiplo de 2 ----- Solucionado
 
 let number = prompt("Type a number: ")
@@ -180,3 +181,4 @@ for (const row of table) {
 
 }
 
+*/
