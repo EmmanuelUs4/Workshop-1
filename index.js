@@ -123,7 +123,7 @@ const resultA = a/(b*c)
 console.log("2.a result= " + resultA)
 
 // 2.b
-const resultB = (a^2)+(b^92)
+const resultB = (a**2)+(b**92)
 console.log("2.b result= " + resultB)
 
 //2.c
